@@ -67,13 +67,22 @@ input {
   border-style: none;
 }
 
+input::placeholder {
+  color: hsl(0, 36%, 70%);
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 0.6;
+  font-size: 16px;
+}
+
 .button {
   background-color: bisque;
 }
 
-.btn {
+button {
   border-style: none;
   text-decoration: none;
+  background-color: hsl(0, 93%, 68%);
+  height: 100%;
 }
 
 .img {
